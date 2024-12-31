@@ -16,9 +16,9 @@ const Modal = ({ isOpen, closeModal, title, detailedDescription }) => {
             </div>
   
             {/* Modal Content */}
-            <div className="overflow-auto text-white text-xl">
+            <div className="overflow-auto text-white text-md">
                     {detailedDescription.map((line, index) => (
-                    <p key={index}>{index+1}. {line}</p>
+                    <p className="text-teal-100" key={index}> <b className="text-teal-500">{index+1}</b>. {line}</p>
                      ))}
             </div>
 
@@ -27,7 +27,7 @@ const Modal = ({ isOpen, closeModal, title, detailedDescription }) => {
             <div className="mt-6 text-center">
               <button
                 onClick={closeModal}
-                className="px-6 py-2 text-xl text-white bg-teal-600 rounded-lg hover:bg-teal-700 focus:outline-none"
+                className="px-6 py-2 text-sm text-white bg-teal-600 rounded-lg hover:bg-teal-700 focus:outline-none"
               >
                 Close
               </button>

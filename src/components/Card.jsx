@@ -40,7 +40,7 @@ const Card = ({ title, description, detailedDescription, link, imageSrc }) => {
       />
 
       {/* Read More Button fixed to the bottom-left, stays within the card */}
-      <div className="absolute bottom-4 left-4">
+      <div className="relative bottom-4 left-4">
         <button
           onClick={openModal}
           className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-teal-600 rounded-lg hover:bg-teal-700 focus:outline-none focus:ring-4 focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-700"
