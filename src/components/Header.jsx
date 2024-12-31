@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CA from "../public/ca2.jpg"
+import CA from "../../public/ca2.jpg"
 
 // Header Component with Sidebar
 const Header = () => {

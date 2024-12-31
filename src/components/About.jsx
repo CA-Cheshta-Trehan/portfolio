@@ -1,5 +1,6 @@
 import SectionWrapper from "./SectionWrapper";
-import Cheshta from "../public/cheshta.png"
+import Cheshta from "../../public/cheshta.png"
+
 //About
 const About = () => (
     <SectionWrapper title="About Me">

@@ -1,8 +1,8 @@
 // Education Section
 
-import icaiImage from '../public/icai.jpeg';  
-import cbseImage from '../public/cbse.png';  
-import mjpruimage from '../public/mjpru.jpg';  
+import icaiImage from '../../public/icai.jpeg';  
+import cbseImage from '../../public/cbse.png';  
+import mjpruimage from '../../public/mjpru.jpg';  
 
 import SectionWrapper from './SectionWrapper';
 import Card from './Card';

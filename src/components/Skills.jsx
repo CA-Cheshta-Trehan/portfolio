@@ -1,9 +1,9 @@
 import SectionWrapper from "./SectionWrapper";
 import Card from "./Card";
-import Taxation from "../public/tax.jpeg";
-import Auditing from "../public/audit.jpeg";
-import Software from "../public/software.jpeg";
-import Miscellaneous from "../public/miscellaneous.jpeg";
+import Taxation from "../../public/tax.jpeg";
+import Auditing from "../../public/audit.jpeg";
+import Software from "../../public/software.jpeg";
+import Miscellaneous from "../../public/miscellaneous.jpeg";
 
 // Skills Section
 

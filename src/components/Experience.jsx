@@ -1,6 +1,6 @@
 import SectionWrapper from "./SectionWrapper";
 import Card from "./Card";
-import articleImage from '../public/article.png'; 
+import articleImage from '../../public/article.png'; 
 // Experience Section
 
 const experiences = {
