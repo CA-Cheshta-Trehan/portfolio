@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure this is in your index.css or global styles file */
+
+/* 3D Flip Effect for Card */
+.perspective {
+    perspective: 1000px;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .transform {
+    transform: rotateY(0);
+  }
+  
+  .transition-transform {
+    transition: transform 0.5s ease-in-out;
+  }
+  
